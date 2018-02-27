@@ -33,7 +33,7 @@ public class CurrencyConverterModule {
 
     @Provides
     @Named("offline")
-    CurrencyConverter provideCurrencyConverter(OfflineCurrencyConverter converter) {
+    CurrencyConverter provideOfflineCurrencyConverter(OfflineCurrencyConverter converter) {
         return converter;
     }
 
