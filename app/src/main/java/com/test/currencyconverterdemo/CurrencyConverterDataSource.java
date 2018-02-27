@@ -33,7 +33,7 @@ public class CurrencyConverterDataSource {
                 .subscribe(new Observer<RatesResponse>() {
                     @Override
                     public void onSubscribe(Disposable d) {
-
+                        //We don't need this for now
                     }
 
                     @Override
